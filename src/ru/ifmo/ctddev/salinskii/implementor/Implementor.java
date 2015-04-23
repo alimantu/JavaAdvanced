@@ -12,6 +12,7 @@ import java.util.*;
  * Created by Alimantu on 3/12/2015.
  * Implementation of {@link info.kgeorgiy.java.advanced.implementor.Impler}
  * Implements only interfaces.
+ * @author Alexander Salinskii
  */
 public class Implementor implements Impler {
 
@@ -25,6 +26,12 @@ public class Implementor implements Impler {
         toFileImplement(token, root);
     }
 
+    /**
+     * Creates the implementation of the <tt>token</tt> writing it to the to the <tt>output</tt>
+     * @param token the token of the implemented class
+     * @param output the <tt>Writer</tt> we need to write our implementation
+     * @throws IOException if there are some problems with creation of the implementation
+     */
     public void implement(Class<?> token, Writer output) throws IOException {
         final String implementationName = getImplementationName(token);
 
@@ -63,6 +70,7 @@ public class Implementor implements Impler {
 
     /**
      * Override the methods with default return value.
+     * <p>
      * <tt>false</tt> for boolean, <tt>0</tt> for other primitives, <tt>null</tt> for non-primitives.
      * @param method    the method to be overrided.
      * @param output    output {@link java.io.Writer} object.
@@ -97,9 +105,12 @@ public class Implementor implements Impler {
 
     /**
      * Create a <tt>String</tt> with enumeration of all the <tt>arguments</tt> with specified types.
-     * <p/>
-     * Example input: <code>[Integer.class, String.class, Object.class]</code>, <code>varArgs == true</code>:
-     * "java.lang.Integer arg0, java.lang.String arg1, java.lang.Object... arg2"
+     * <p>
+     * Example
+     * <p>
+     * input: <code>[Integer.class, String.class, Object.class]</code>, <code>varArgs == true</code>:
+     * <p>
+     * output: "java.lang.Integer arg0, java.lang.String arg1, java.lang.Object... arg2"
      * @param arguments the array of the argument types.
      * @param varArgs   <code>true</code> if this method or constructor was declared to take
      *                  a variable number of arguments; <code>false</code> otherwise
@@ -123,14 +134,14 @@ public class Implementor implements Impler {
     }
 
     /**
-     *
-     * @param returnType
-     * @return
+     * Creates the <tt>String</tt> with <tt>argumentType</tt> name.
+     * @param argumentType the type witch name we are searching for
+     * @return <tt>String</tt> with name of the type
      */
-    private String getTypeName(Class<?> returnType) {
-        if (returnType.isArray()){
+    private String getTypeName(Class<?> argumentType) {
+        if (argumentType.isArray()){
             try{
-                Class<?> clazz = returnType;
+                Class<?> clazz = argumentType;
                 int dimensions = 0;
                 while(clazz.isArray()){
                     clazz = clazz.getComponentType();
@@ -146,15 +157,27 @@ public class Implementor implements Impler {
                 e.printStackTrace();
             }
         }
-        return returnType.getName();
+        return argumentType.getName();
     }
 
+    /**
+     * Return the created key of the <tt>method</tt>.
+     * @param method    the method for key creation
+     * @return the <tt>String</tt> representation of the method key.
+     */
     private String getMethodKey(Method method) {
         return method.getName() + "$"
                 + Arrays.toString(method.getParameterTypes()) + "$"
                 + method.isVarArgs();
     }
 
+    /**
+     * Create the implementation of the <tt>token</tt> class to the <tt>File</tt>, then return it.
+     * @param token type token of class for implement
+     * @param root  the root directory.
+     * @return  file with the implementation of the <tt>token</tt> class
+     * @throws ImplerException  if there are some problems with implementation creation.
+     */
     protected File toFileImplement(Class<?> token, File root) throws ImplerException {
         checkImplementable(token);
 
@@ -169,6 +192,11 @@ public class Implementor implements Impler {
         return outputFile;
     }
 
+    /**
+     * Creates the path of the implementation depends from class package.
+     * @param token the token of the implemented class
+     * @return path for the implementation
+     */
     protected String getPathName(Class<?> token) {
         return token.getPackage().getName().replace(".", "//")
                 + "//"
@@ -177,10 +205,20 @@ public class Implementor implements Impler {
 
     }
 
+    /**
+     * Creates the name of the implemented class concatenating the name of the <tt>token</tt> with <tt>IMPLEMENTATION_SUFFIX</tt>.
+     * @param token the token of the implemented class
+     * @return the result of the concatenation
+     */
     private String getImplementationName(Class<?> token) {
         return token.getSimpleName() + IMPLEMENTATION_SUFFIX;
     }
 
+    /**
+     * Checks that we can implement <tt>token</tt> class.
+     * @param token the token of the implemented class
+     * @throws ImplerException  if we can't implement the <tt>token</tt> class
+     */
     private void checkImplementable(Class<?> token) throws ImplerException{
         if(Modifier.isFinal(token.getModifiers())){
             throw new ImplerException("Can't implement final class");

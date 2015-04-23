@@ -21,6 +21,7 @@ import java.util.jar.Manifest;
  * Created by Alimantu on 4/9/2015.
  * Implementation of {@link info.kgeorgiy.java.advanced.implementor.JarImpler}
  * Implements only interfaces.
+ * @author Alexander Salinskii
  */
 public class JarImplementor extends ru.ifmo.ctddev.salinskii.implementor.Implementor implements JarImpler {
 
@@ -91,12 +92,11 @@ public class JarImplementor extends ru.ifmo.ctddev.salinskii.implementor.Impleme
         }
     }
 
-
     /**
-     * Replaces the {code oldExtension} in the {code fileName} with the {code newExtension}.
+     * Replaces the <tt>oldExtension</tt>} in the <tt>fileName</tt> with the <tt>newExtension</tt>.
      * @param fileName      the modified string
      * @param oldExtension  the substring that will be changed
-     * @param newExtension  the substring that substitute the substring that matches the {code oldExtention}
+     * @param newExtension  the substring that substitute the <tt>oldExtention</tt>
      * @return the resulting <tt>String</tt>
      */
     private String changeExtension(String fileName, String oldExtension, String newExtension) {
@@ -108,8 +108,4 @@ public class JarImplementor extends ru.ifmo.ctddev.salinskii.implementor.Impleme
         return fileName.substring(0, oldExtensionIndex) + extention;
     }
 
-   /* @Override
-    public void implement(Class<?> token, File root) throws ImplerException {
-
-    }*/
 }
