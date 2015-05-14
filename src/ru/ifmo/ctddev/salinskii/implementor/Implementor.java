@@ -9,9 +9,9 @@ import java.lang.reflect.Modifier;
 import java.util.*;
 
 /**
- * Created by Alimantu on 3/12/2015.
  * Implementation of {@link info.kgeorgiy.java.advanced.implementor.Impler}
  * Implements only interfaces.
+ * Created by Alimantu on 3.12.2015
  * @author Alexander Salinskii
  */
 public class Implementor implements Impler {
@@ -29,7 +29,7 @@ public class Implementor implements Impler {
     /**
      * Creates the implementation of the <tt>token</tt> writing it to the to the <tt>output</tt>
      * @param token the token of the implemented class
-     * @param output the <tt>Writer</tt> we need to write our implementation
+     * @param output the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Writer.html">Writer</a> we need to write our implementation
      * @throws IOException if there are some problems with creation of the implementation
      */
     public void implement(Class<?> token, Writer output) throws IOException {
@@ -73,8 +73,8 @@ public class Implementor implements Impler {
      * <p>
      * <tt>false</tt> for boolean, <tt>0</tt> for other primitives, <tt>null</tt> for non-primitives.
      * @param method    the method to be overrided.
-     * @param output    output {@link java.io.Writer} object.
-     * @throws IOException if there is some problems during wrighting.
+     * @param output    output <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Writer.html">Writer</a> object.
+     * @throws IOException if there is some problems during writing.
      */
     private void overrideMethod(Method method, Writer output) throws IOException {
         output.write("\n\t@Override\n\tpublic ");
@@ -90,7 +90,7 @@ public class Implementor implements Impler {
 
         //Method body
         if(!method.getReturnType().equals(void.class)){
-            output.write("\t\nreturn ");
+            output.write("\t\treturn ");
             if(!method.getReturnType().isPrimitive()){
                 output.write("null");
             } else if(method.getReturnType().equals(boolean.class)){
@@ -104,7 +104,7 @@ public class Implementor implements Impler {
     }
 
     /**
-     * Create a <tt>String</tt> with enumeration of all the <tt>arguments</tt> with specified types.
+     * Create a <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> with enumeration of all the <tt>arguments</tt> with specified types.
      * <p>
      * Example
      * <p>
@@ -114,7 +114,7 @@ public class Implementor implements Impler {
      * @param arguments the array of the argument types.
      * @param varArgs   <code>true</code> if this method or constructor was declared to take
      *                  a variable number of arguments; <code>false</code> otherwise
-     * @return  the resulting <tt>String</tt> with arguments enumeration.
+     * @return  the resulting <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> with arguments enumeration.
      */
     private String getArguments(Class<?>[] arguments, boolean varArgs) {
         StringBuilder stringBuilder = new StringBuilder();
@@ -134,9 +134,9 @@ public class Implementor implements Impler {
     }
 
     /**
-     * Creates the <tt>String</tt> with <tt>argumentType</tt> name.
+     * Creates the <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> with <tt>argumentType</tt> name.
      * @param argumentType the type witch name we are searching for
-     * @return <tt>String</tt> with name of the type
+     * @return <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> with name of the type
      */
     private String getTypeName(Class<?> argumentType) {
         if (argumentType.isArray()){
@@ -163,7 +163,7 @@ public class Implementor implements Impler {
     /**
      * Return the created key of the <tt>method</tt>.
      * @param method    the method for key creation
-     * @return the <tt>String</tt> representation of the method key.
+     * @return the <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a> representation of the method key.
      */
     private String getMethodKey(Method method) {
         return method.getName() + "$"
@@ -172,7 +172,7 @@ public class Implementor implements Impler {
     }
 
     /**
-     * Create the implementation of the <tt>token</tt> class to the <tt>File</tt>, then return it.
+     * Create the implementation of the <tt>token</tt> class to the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a>, then return it.
      * @param token type token of class for implement
      * @param root  the root directory.
      * @return  file with the implementation of the <tt>token</tt> class

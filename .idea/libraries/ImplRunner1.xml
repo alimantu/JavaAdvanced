@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ImplRunner1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/implementor/ImplRunner.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -11,6 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.Objects;
 import java.util.Random;
 import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
@@ -18,9 +19,9 @@ import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
 
 /**
- * Created by Alimantu on 4/9/2015.
  * Implementation of {@link info.kgeorgiy.java.advanced.implementor.JarImpler}
  * Implements only interfaces.
+ * Created by Alimantu on 4.9.2015.
  * @author Alexander Salinskii
  */
 public class JarImplementor extends ru.ifmo.ctddev.salinskii.implementor.Implementor implements JarImpler {
@@ -36,8 +37,10 @@ public class JarImplementor extends ru.ifmo.ctddev.salinskii.implementor.Impleme
         outputDirectory.deleteOnExit();
 
         File implementationFile = toFileImplement(token, outputDirectory);
-        //System.err.println("Impl file -> " + implementationFile.toString());
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
+        System.out.println(System.getProperty("java.home"));
+        Objects.requireNonNull(compiler);
+        Objects.requireNonNull(implementationFile);
         if(compiler.run(null, null, null, implementationFile.getAbsolutePath()) != 0){
             throw new ImplerException("Can't compile " + token.getName() + " implementation!");
         }
@@ -93,11 +96,11 @@ public class JarImplementor extends ru.ifmo.ctddev.salinskii.implementor.Impleme
     }
 
     /**
-     * Replaces the <tt>oldExtension</tt>} in the <tt>fileName</tt> with the <tt>newExtension</tt>.
+     * Replaces the <tt>oldExtension</tt> in the <tt>fileName</tt> with the <tt>newExtension</tt>.
      * @param fileName      the modified string
      * @param oldExtension  the substring that will be changed
      * @param newExtension  the substring that substitute the <tt>oldExtention</tt>
-     * @return the resulting <tt>String</tt>
+     * @return the resulting <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a>
      */
     private String changeExtension(String fileName, String oldExtension, String newExtension) {
         int oldExtensionIndex = fileName.lastIndexOf(oldExtension);

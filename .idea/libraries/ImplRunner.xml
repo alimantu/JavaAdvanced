@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ImplRunner">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ImplRunner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ImplRunner.jar!/src" />
+    </SOURCES>
+  </library>
+</component>

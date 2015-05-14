@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IR">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/implementor/IR.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
