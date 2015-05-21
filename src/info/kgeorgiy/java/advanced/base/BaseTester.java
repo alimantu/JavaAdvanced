@@ -24,7 +24,7 @@ public class BaseTester {
             return;
         }
 
-        System.setProperty("cut", args[1]);
+        System.setProperty(BaseTest.CUT_PROPERTY, args[1]);
         final Result result = new JUnitCore().run(token);
         if (!result.wasSuccessful()) {
             for (final Failure failure : result.getFailures()) {

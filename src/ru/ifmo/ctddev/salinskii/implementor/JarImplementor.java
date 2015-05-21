@@ -38,7 +38,6 @@ public class JarImplementor extends ru.ifmo.ctddev.salinskii.implementor.Impleme
 
         File implementationFile = toFileImplement(token, outputDirectory);
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
-        System.out.println(System.getProperty("java.home"));
         Objects.requireNonNull(compiler);
         Objects.requireNonNull(implementationFile);
         if(compiler.run(null, null, null, implementationFile.getAbsolutePath()) != 0){
