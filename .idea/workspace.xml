@@ -6,34 +6,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c850fbd5-096d-43bf-a077-968b3731f09b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AnyChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/HelloUDPTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ListHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Maximum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Minimum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ParallelOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Threads.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/quickcheck_0_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/info/kgeorgiy/java/advanced/base/BaseTester.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/info/kgeorgiy/java/advanced/base/BaseTester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jar/out/ru/ifmo/ctddev/salinskii/implementor/ImplementorRunner.class" afterPath="$PROJECT_DIR$/jar/out/ru/ifmo/ctddev/salinskii/implementor/ImplementorRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/implementor/ImplementorRunner.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/implementor/ImplementorRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jar/ImplementorRunner.jar" afterPath="$PROJECT_DIR$/jar/ImplementorRunner.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/iterativeparallelism/IterativeParallelism.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/iterativeparallelism/IterativeParallelism.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jar/out/ru/ifmo/ctddev/salinskii/implementor/JarImplementor$1.class" afterPath="$PROJECT_DIR$/jar/out/ru/ifmo/ctddev/salinskii/implementor/JarImplementor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/implementor/JarImplementor$1.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/implementor/JarImplementor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jar/out/ru/ifmo/ctddev/salinskii/implementor/JarImplementor.class" afterPath="$PROJECT_DIR$/jar/out/ru/ifmo/ctddev/salinskii/implementor/JarImplementor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/implementor/JarImplementor.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/implementor/JarImplementor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/ClientThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServerRunner.java" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out-2125751843\java\util\ComparatorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out1048020587\java\util\DequeImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\base\BaseTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\base\BaseTest$Command.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\base\BaseTest$ConsumerCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\base\BaseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\base\BaseTester.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\base\CG.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\hello\HelloClient.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\out\production\JavaAdvanced2015\info\kgeorgiy\java\advanced\hello\HelloServer.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\src\info\kgeorgiy\java\advanced\base\BaseTest.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\src\info\kgeorgiy\java\advanced\base\BaseTester.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\src\info\kgeorgiy\java\advanced\base\CG.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\src\info\kgeorgiy\java\advanced\hello\HelloClient.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\src\info\kgeorgiy\java\advanced\hello\HelloServer.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Backup\Documents\Java\Advanced2015\Implementor\src\info\kgeorgiy\java\advanced\hello\Util.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JavaAdvanced2015_jar/JavaAdvanced2015.jar" afterPath="$PROJECT_DIR$/out/artifacts/JavaAdvanced2015_jar/JavaAdvanced2015.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jar/impls.jar" afterPath="$PROJECT_DIR$/jar/impls.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/base/BaseTester.java" afterPath="$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/base/BaseTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/IterativeParallelism.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/IterativeParallelism.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/implementor/JarImplementor.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/implementor/JarImplementor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaAdvanced2015.iml" afterPath="$PROJECT_DIR$/JavaAdvanced2015.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaAdvanced2015/info/kgeorgiy/java/advanced/concurrent/ScalarIPTest.class" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced2015/info/kgeorgiy/java/advanced/concurrent/ScalarIPTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/HelloUDPTest.xml" afterPath="$PROJECT_DIR$/.idea/libraries/HelloUDPTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Implementor.iws" />
@@ -63,55 +62,19 @@
       <file leaf-file-name="IterativeParallelism.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/IterativeParallelism.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1462">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1377">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelOperations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ParallelOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="544">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ListHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1887">
+            <state vertical-scroll-proportion="2.0924857" vertical-offset="478" max-vertical-offset="1853">
               <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllChecker.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16377649" vertical-offset="0" max-vertical-offset="731">
-              <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnyChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AnyChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <caret line="6" column="99" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -119,23 +82,19 @@
       <file leaf-file-name="Minimum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Minimum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Maximum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Maximum.java">
+      <file leaf-file-name="ParallelOperations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ParallelOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="714">
-              <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="544">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,11 +102,9 @@
       <file leaf-file-name="Threads.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Threads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="748">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,13 +154,15 @@
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ListHandler.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ParallelOperations.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Threads.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AnyChecker.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Maximum.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Minimum.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java" />
         <option value="$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/hello/HelloServerTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServerRunner.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/ClientThread.java" />
       </list>
     </option>
   </component>
@@ -244,7 +203,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,6 +219,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Implementor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Implementor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Implementor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,45 +320,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Implementor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Implementor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Implementor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Implementor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,7 +344,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jar/HelloUDPTest.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/HelloUDPTest.jar!/" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
@@ -417,6 +354,11 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="implementor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.ifmo.ctddev.salinskii.hello" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Kgeo6">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -713,6 +655,46 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Kgeo9server" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="info.kgeorgiy.java.advanced.hello.Tester" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="server ru.ifmo.ctddev.salinskii.hello.HelloUDPServer" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaAdvanced2015" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Kgeo9client" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="info.kgeorgiy.java.advanced.hello.Tester" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="client ru.ifmo.ctddev.salinskii.hello.HelloUPDClient" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaAdvanced2015" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="MyImplRunner" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.ifmo.ctddev.salinskii.implementor.ImplementorRunner" />
@@ -730,11 +712,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Kgeorgy" />
       <item index="1" class="java.lang.String" itemvalue="Application.MyImplRunnerJar" />
       <item index="2" class="java.lang.String" itemvalue="Application.Kgeo6" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MyImplRunner" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Kgeo9server" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Kgeo9client" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MyImplRunner" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -765,7 +749,10 @@
       <workItem from="1431485775653" duration="19849000" />
       <workItem from="1431676541024" duration="32000" />
       <workItem from="1431955655272" duration="36397000" />
-      <workItem from="1432202740381" duration="1677000" />
+      <workItem from="1432202740381" duration="3245000" />
+      <workItem from="1432755662220" duration="13401000" />
+      <workItem from="1432801545267" duration="11075000" />
+      <workItem from="1432821502332" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="Some modifications.">
       <created>1429209566356</created>
@@ -783,41 +770,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108594000" />
+    <option name="totallyTimeSpent" value="136362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5068638" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284055" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4223865" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4223865" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3368532" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -905,7 +893,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -914,76 +902,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/implementor/examples/InterfaceWithDefaultMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09476031" vertical-offset="0" max-vertical-offset="897">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/implementor/examples/InterfaceWithStaticMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09476031" vertical-offset="0" max-vertical-offset="897">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/implementor/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/implementor/ClassImplementorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/implementor/InterfaceImplementorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29877368" vertical-offset="1891" max-vertical-offset="3298">
-          <caret line="165" column="78" selection-start-line="165" selection-start-column="78" selection-end-line="165" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/impls.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jar/impl/java/util/DequeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jar/ImplementorRunner.jar!/ru/ifmo/ctddev/salinskii/implementor/Implementor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="3162">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jar/ImplementorRunner.jar!/ru/ifmo/ctddev/salinskii/implementor/JarImplementor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="38.2" vertical-offset="1074" max-vertical-offset="2193">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jar/ImplementorRunner.jar!/ru/ifmo/ctddev/salinskii/implementor/ImplementorRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.52" vertical-offset="100" max-vertical-offset="765">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../nd/JavaAdvancedCourse-master/homework3/src/main/java/ru/ifmo/ctddev/koval/java/homework3/ImplementerRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="884">
@@ -1131,18 +1049,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/base/BaseTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/concurrent/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,11 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3978">
           <caret line="31" column="102" selection-start-line="31" selection-start-column="102" selection-end-line="31" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#8605#8606#0" expanded="false" />
-            <element signature="e#8673#8674#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,26 +1088,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Maximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="714">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/tests/HelloUDPTest.jar!/info/kgeorgiy/java/advanced/hello/Tester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServerRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4913295" vertical-offset="0" max-vertical-offset="519">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/tests/HelloUDPTest.jar!/info/kgeorgiy/java/advanced/hello/HelloServerTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.28" vertical-offset="335" max-vertical-offset="816">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AnyChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="697">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/tests/HelloUDPTest.jar!/info/kgeorgiy/java/advanced/base/BaseTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="1292">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/tests/HelloUDPTest.jar!/info/kgeorgiy/java/advanced/base/BaseTester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/tests/HelloUDPTest.jar!/info/kgeorgiy/java/advanced/hello/HelloClientTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.84" vertical-offset="748" max-vertical-offset="1513">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nd/JavaAdvancedCourse-master/homework8/src/main/java/ru/ifmo/ctddev/koval/java/homework8/HelloUdpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2329">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Files/JavaAdvanced1/JavaAdvanced/Tester/src/ru/ifmo/ctddev/Skipor/task8/HelloUDPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94990367" vertical-offset="1088" max-vertical-offset="1989">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/net/DatagramSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11288" max-vertical-offset="21709">
+          <caret line="727" column="62" selection-start-line="727" selection-start-column="62" selection-end-line="727" selection-end-column="62" />
           <folding>
+            <element signature="e#0#50539#0" expanded="false" />
             <element signature="imports" expanded="false" />
+            <element signature="e#18896#18897#0" expanded="false" />
+            <element signature="e#18924#18925#0" expanded="false" />
+            <element signature="e#19301#19302#0" expanded="false" />
+            <element signature="e#19356#19357#0" expanded="false" />
+            <element signature="e#19795#19796#0" expanded="false" />
+            <element signature="e#19834#19835#0" expanded="false" />
+            <element signature="e#20268#20269#0" expanded="false" />
+            <element signature="e#20304#20305#0" expanded="false" />
+            <element signature="e#48735#48736#0" expanded="false" />
+            <element signature="e#48762#48763#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Threads.java">
+    <entry file="jar://$PROJECT_DIR$/tests/HelloUDPTest.jar!/info/kgeorgiy/java/advanced/hello/Util.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state vertical-scroll-proportion="-18.36" vertical-offset="0" max-vertical-offset="561">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0828516" vertical-offset="271" max-vertical-offset="1190">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31984586" vertical-offset="650" max-vertical-offset="1496">
+          <caret line="48" column="80" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ParallelOperations.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.55684006" vertical-offset="0" max-vertical-offset="578">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Threads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1211,88 +1237,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/hello/HelloClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUPDClient.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Minimum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/hello/HelloUDPServer.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ParallelOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18498367" vertical-offset="0" max-vertical-offset="919">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="544">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/ListHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1087" max-vertical-offset="2091">
+        <state vertical-scroll-proportion="2.0924857" vertical-offset="478" max-vertical-offset="1853">
           <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AnyChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="6" column="99" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Maximum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="714">
-          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/Minimum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/kgeorgiy/java/advanced/hello/Util.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/salinskii/iterativeparallelism/Operations/AllChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16377649" vertical-offset="0" max-vertical-offset="731">
-          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="HelloUDPTest">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/jar/HelloUDPTest.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/HelloUDPTest.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

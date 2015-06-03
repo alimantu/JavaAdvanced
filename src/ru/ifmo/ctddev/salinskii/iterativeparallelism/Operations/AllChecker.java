@@ -11,12 +11,10 @@ import java.util.function.Predicate;
 public class AllChecker<T> implements ParallelOperations<T> {
     private List<? extends T> list;
     private Predicate<? super T> predicate;
-    //volatile static boolean result;
     private ListHandler<T> listHandler;
 
     public AllChecker(Predicate<? super T> predicate){
         this.predicate = predicate;
-       // result = true;
     }
 
     @Override
